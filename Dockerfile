@@ -11,7 +11,7 @@ COPY ./frontend/ ./frontend/
 
 RUN cd frontend && npm run build
 
-FROM python:3.12-alpine
+FROM python:3.13-alpine
 
 LABEL maintainer="dairoot"
 
